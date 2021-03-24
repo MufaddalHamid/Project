@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "898849432443",
+    "project_id": "symbi-go",
+    "storage_bucket": "symbi-go.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898849432443:android:93fec23b7a24cbd9f793de",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898849432443-5jp2of4d7bdfg473ll9c0n27e9pskdjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "2b07677bdc473ea236c5102dff26b9fa1d89788b"
+          }
+        },
+        {
+          "client_id": "898849432443-kl89eu4j8lm36j78flroke6b90ojl6ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_P6RkEHwaoAKxMyu4yyAFPiRv_XhmbTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898849432443-kl89eu4j8lm36j78flroke6b90ojl6ht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
