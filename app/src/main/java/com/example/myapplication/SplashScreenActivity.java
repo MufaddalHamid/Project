@@ -22,5 +22,6 @@ public class SplashScreenActivity extends AppCompatActivity {
     void delaysplahscreen()
     {
         Completable.timer(5, TimeUnit.SECONDS, AndroidSchedulers.mainThread()).subscribe(() -> Toast.makeText(SplashScreenActivity.this,"Splash Screen Done!!",Toast.LENGTH_SHORT).show());
+        System.out.println("You");
     }
 }
