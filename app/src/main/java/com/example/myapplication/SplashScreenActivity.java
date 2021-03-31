@@ -33,7 +33,6 @@ public class SplashScreenActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         init();
     }
 
@@ -82,6 +81,7 @@ public class SplashScreenActivity extends AppCompatActivity {
 
     private void delaysplashscreen(){
         Completable.timer(3, TimeUnit.SECONDS, AndroidSchedulers.mainThread()).subscribe(() -> firebaseAuth.addAuthStateListener(listener));
+     //10:20 line 83
     }
 
     @Override
