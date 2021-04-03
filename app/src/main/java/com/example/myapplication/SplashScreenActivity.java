@@ -157,7 +157,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                            .addOnFailureListener(e ->
                            {
                                dialog.dismiss();
-                               Toast.makeText(SplashScreenActivity.this,e.getMessage(),Toast.LENGTH_SHORT).show()
+                               Toast.makeText(SplashScreenActivity.this,e.getMessage(),Toast.LENGTH_SHORT).show();
                            })
                            .addOnSuccessListener(aVoid -> {
                                dialog.dismiss();
